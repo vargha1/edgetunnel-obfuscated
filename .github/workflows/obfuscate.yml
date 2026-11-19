@@ -31,7 +31,7 @@ jobs:
       - name: ⬇️ Download latest edgetunnel worker
         run: |
           curl -sL -o origin.js \
-            "https://raw.githubusercontent.com/cmliu/edgetunnel/main/_worker.js"
+            "https://raw.githubusercontent.com/Qorvhex/TWP/refs/heads/main/worker.js"
           echo "Downloaded origin.js ($(wc -c < origin.js) bytes)"
 
       - name: 🔐 Obfuscate worker code
